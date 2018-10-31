@@ -52,7 +52,7 @@ body {
 /* Banner */
 .main-banner {
     /* background: var(--color-first); */
-    background: var(--color-first);
+    background: #c0ec47;
     padding: 4rem 0 5rem;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
     position: relative;
@@ -67,7 +67,7 @@ body {
 /* Topbar  */
 
 .topbar--dark {
-    background: var(--color-second);
+    background: black;
     color: #fff;
 }
 
@@ -120,12 +120,12 @@ body {
 /* main-footer */
 
 .main-footer {
-    background: var(--color-third);
+    background: black;
     color: #fff;
     margin-top: 4rem;
     padding: 1rem ;
 }
 
-#reloj {
-    font-size: 20px;
+.frame-video {
+   
 }
