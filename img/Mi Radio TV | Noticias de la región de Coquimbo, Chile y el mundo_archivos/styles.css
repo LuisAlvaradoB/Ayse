@@ -25,6 +25,10 @@ body {
     background: #fff;
 }
 
+.logo {
+    
+}
+
 .main-menu-link {
     color: var(--color-text);
     font-size: .8rem;
@@ -34,11 +38,11 @@ body {
 @media screen and (max-width: 1024px) {
     .main-menu {
         position: fixed;
-        top: 4rem;
+        top: 3rem;
         right: 0;
         background: var(--color-dark);
         z-index: var(--z-fixed);
-    } 
+    }
 
     .main-menu-link {
         color: #fff;    
@@ -122,3 +126,6 @@ body {
     padding: 1rem ;
 }
 
+.frame-video {
+   
+}
