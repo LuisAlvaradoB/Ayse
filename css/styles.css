@@ -1,0 +1,131 @@
+/* Paleta de colores y modales */
+:root {
+    --color-first   : #118df0;
+    --color-second  : #0e2f56;
+    --color-third   : #ff304f;
+    --color-accent  : #ffd460;
+    --color-dark    : #282D31;
+    --color-border  : #DFE0E0;
+    --color-text    : #53575A;
+    --color-bg      : #eeeeee;
+    --z-normal      : 1;
+    --z-tooltip     : 10;
+    --z-fixed       : 100;
+    --z-modal       : 1000;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.main-header {
+    height: 3rem;
+    border-bottom: 1px solid var(--color-border);
+    background: #fff;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.main-menu-link {
+    color: var(--color-text);
+    font-size: .8rem;
+}
+
+/* Media query para el menu  */
+@media screen and (max-width: 1024px) {
+    .main-menu {
+        position: fixed;
+        top: 3rem;
+        right: 0;
+        background: var(--color-dark);
+        z-index: var(--z-fixed);
+    }
+
+    .main-menu-link {
+        color: #fff;    
+    }
+}
+
+/* Banner */
+.main-banner {
+    /* background: var(--color-first); */
+    background: var(--color-first);
+    padding: 4rem 0 5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-banner {
+        padding: 8rem 0 10rem;
+    }
+}
+
+/* Topbar  */
+
+.topbar--dark {
+    background: var(--color-second);
+    color: #fff;
+}
+
+.main-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Banner img central */
+
+.main-banner-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.main-banner-data {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+/* Contenido principal main */
+
+.center {
+    text-align: center;
+}
+
+/* Main features */
+
+.main-features {
+    margin-top: 2rem;
+    
+}
+
+.section-title {
+    margin-top: 2rem;
+    color: var(--color-text);
+}
+
+.logo-feature {
+    height: 6rem;
+}
+
+/* main-footer */
+
+.main-footer {
+    background: var(--color-third);
+    color: #fff;
+    margin-top: 4rem;
+    padding: 1rem ;
+}
+
+#reloj {
+    font-size: 20px;
+}
